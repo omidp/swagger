@@ -2,12 +2,12 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Swagger
 Bundle-SymbolicName: org.icreated.swagger;singleton:=true
-Bundle-Version: 6.2.0.qualifier
+Bundle-Version: 8.1.0.qualifier
 Bundle-Vendor: ICreated
 DynamicImport-Package: *
 Bundle-ActivationPolicy: lazy
 Comment: Bundle-RequiredExecutionEnvironment: JavaSE-11
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.11))"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
 Automatic-Module-Name: org.icreated.swagger
 Import-Package: org.apache.felix.webconsole;version="3.1.2",
  org.compiere.model,
